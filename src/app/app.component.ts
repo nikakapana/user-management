@@ -1,4 +1,8 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {IUser, UserRole, UserStatus} from "./interfaces";
+import {LogService} from "./components/services/log.service";
+import {UserService} from "./components/services/user.service";
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +10,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'user-management';
+
+
 }
